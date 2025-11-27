@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Version 1",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/version1/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/version1"
+        },
+        {
+            "name": "Debug Version 2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/version2/main_v2.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/version2"
+        },
+        {
+            "name": "Debug Stress Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/version2/stress_test.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/version2"
+        }
+    ]
+}
